@@ -34,7 +34,6 @@ outermost stop.  Please note: the non-redundant coordinates are based strictly
 on exact overlap of coordinates, not on partial overlaps.  
 
 * Other features of NR SV files:
-   * variant calls are from germline samples only (no somatic)
    * placements are "BestAvailable" on the assembly (guarantees no duplicate placements for a variant)
    * placements are on finished chromosomes only (not on NT_ or NW_ contigs)
    * placements are 1-based in the .tsv files
@@ -58,26 +57,28 @@ Variant types are grouped into three "aggregation types".
 The variant types in each of the three "aggregation types" are:
 
 * "deletions" include:
-   * alu_deletion
-   * copy_number_loss
    * deletion
+   * copy_number_loss
+   * alu_deletion
    * herv_deletion
    * line1_deletion
    * sva_deletion
 
 * "duplications" include:
+   * duplication
    * copy_number_gain
    * copy_number_variation
-   * duplication
    * tandem_duplication
 
 * "insertions" include:
-   * alu_insertion
    * insertion
-   * line1_insertion
    * mobile_element_insertion
-   * novel_sequence_insertion
+   * alu_insertion
+   * herv_insertion
+   * line1_insertion
    * sva_insertion
+   * novel_sequence_insertion
+
 
 # Summary Statistics
 
