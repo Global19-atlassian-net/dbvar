@@ -3,7 +3,7 @@
 ## Work in progress – Data subject to change
 
 ## Last updated:
-08/24/18
+10/09/2019
 
 ## FTP Link:
 
@@ -14,20 +14,18 @@
 The non-redundant structural variants, "NR SVs", of type "deletions" are in these  
 files on the FTP site:
 
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.tsv.gz__   
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.tsv.gz__  
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.acmg_genes.tsv.gz__  
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.acmg_genes.tsv.gz__  
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.bed.gz__  
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.bed.gz__  
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.bedpe.gz__  
-&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.bedpe.gz__  
+&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.common.bed.gz__   
+&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.pathogenic.bed.gz__  
+&nbsp;&nbsp;&nbsp;&nbsp;__GRCh37.nr_deletions.somatic.bed.gz__  
+&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.common.bed.gz__  
+&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.pathogenic.bed.gz__  
+&nbsp;&nbsp;&nbsp;&nbsp;__GRCh38.nr_deletions.somatic.bed.gz__  
 
 The variant types in the NR "deletions" files are:
 
-* alu_deletion
-* copy_number_loss
 * deletion
+* copy_number_loss
+* alu_deletion
 * herv_deletion
 * line1_deletion
 * sva_deletion
