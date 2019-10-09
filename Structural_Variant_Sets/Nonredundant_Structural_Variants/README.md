@@ -27,7 +27,7 @@ An Overview of Structural Variation can be found here:
 ## Description of NR SV data files:
 
 * Sets of "non-redundant structural variations" (NR SVs) derived from dbVar are
-available via FTP in bed, bedpe, and tsv formats, separated by assembly (GRCh37 & GRCh38), variant type, and by category (common, pathogenic, and somatic).  
+available via FTP in bed, bedpe, and tsv formats. Files are grouped by genome assembly, variant type, and category (common, pathogenic, and somatic).
 
 * Non-redundant refers to variant coordinates, i.e. chr, outermost start, and
 outermost stop.  Please note: the non-redundant coordinates are based strictly
