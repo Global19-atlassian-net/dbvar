@@ -6,6 +6,7 @@
 
     .
     +-- Structural_Variant_Sets              # dbVar Reference SV Project & Data
-    +-- specs                                # dbVar Design and Schema Specifications     
-    +-- tutorials                            # Initial dir and README setup
-    +-- README.md
+    +-- specs                                # dbVar Design and Schema Specifications
+    +-- images                               # images used in documentation
+    +-- tutorials                            # help for using data
+    +-- README.md                            # Initial dir and README setup
